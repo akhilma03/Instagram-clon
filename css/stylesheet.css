@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    
+    position: relative;
+    bottom: 31px;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content:    space-around;
+    background-color: #FFFFFF;
+    align-items: center;
+    border-bottom: 1px;
+    border-color: rgb(212, 208, 208);
+    border-style:solid;
+    border-top: none;
+    position: fixed;
+    
+
+
+}
+body{
+    background-color: #FAFAFA;
+}
+
+.searchbox{
+  height: auto;
+    background-color: #EFEFEF;
+    padding: 4px 7px;
+    border-radius: 7px;
+    
+
+   
+}
+.searchbox input{
+    border: none;
+    outline: none;
+    padding: 3px 5px;
+    background-color: #EFEFEF;
+    
+}   
+.searchbox i{
+    color: #BFB4B4 ;
+}
+
+ .right-icon ul{
+    display: flex;
+ 
+  
+}
+.right-icon li{
+    list-style: none;
+    padding: 15px;
+    font-size: 20px;
+
+
+}
+
+.right-icon li img{
+    border-radius: 15px;
+
+}
+
+section{
+    padding: 30px 18%;
+    background-color: #FAFAFA;
+    display: flex;
+
+}
+.mmainfirst{
+    width: 65%;
+
+}
+
+
+.story ul{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+}
+
+    
+.story{
+    display: flex;
+    padding: 16px;
+    background-color: white;
+    border: 1px solid rgb(221, 214, 214)  ;
+    border-radius: 3px;
+    margin-top: 44px;
+    margin-right: 35px;
+    
+}
+
+.story ul li{
+    border: 1px;
+    padding: 1px;
+    object-fit: cover;
+    color: #0095F6;
+
+    
+}
+.story ul li img{
+    margin: 1px;
+    padding-right: 5px;
+    border: 3px solid #D82C7C;
+
+
+}
+.story ul p{
+    width: 90%;
+    overflow: hidden;
+    
+    text-overflow: ellipsis;
+    color: rgb(121, 112, 112);   
+}
+
+
+.post{
+    margin: 20px  34px 0 0;
+    background-color: white;
+    border: 1px solid #f3ebebfb;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 1px;
+   
+}
+.post .postdp{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+
+
+}
+.post .postdp .postleft{
+    display: flex;
+    font-weight: bold;
+    font-family:  'Roboto', sans-serif;
+    font-size: 14px;
+
+    
+}
+.postleft img{
+    margin: 0 0 15px 15px;
+    border: 3px solid #D82C7C;
+    border-radius: 50%;
+    
+   
+} 
+.postleft p{
+padding: 10px;
+}
+.postimage{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+ .post .postfooter{
+
+ display: flex;
+ justify-content: space-between;
+ font-size: 22px;
+ margin: 15px;
+}
+.post .postfooter .likesharecomment i{
+    margin: 0 5px 0 5px;
+    
+}
+.post .likecontent{
+    display: flex;
+    margin: 0 0 15px 15px;
+    font-family:  'Roboto', sans-serif;
+    font-size: 15px;
+}
+.post .likecontent p{
+    margin: 3px;
+
+}
+.post .postfooter .likesharecomment p{
+    margin: 15px;
+}
+.owner{
+    margin: 0 0 15px 15px;}
+
+.owner p:nth-child(2){
+    color: grey;
+    margin-right:  20px;
+    margin-top: 5px;
+
+}
+.time{
+    font-size: 13px;
+    margin: 0 0 15px 15px;
+    color: grey;
+
+}
+.comment{
+
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #f3ebebfb;
+    padding: 10px;
+    margin: -2px;
+}
+
+.comment p:nth-child(2){
+    margin-left: -1px;
+
+        
+        
+        
+    
+
+
+}
+.leftside{
+    font-size: 20px;
+}
+.leftside input{
+    margin: 5px;
+    border: none;
+}
+.right{                             
+    margin-right: 10px;
+    color: #0095F6;
+
+}
+
+.mainright{
+    width: 35%;
+    margin-top: 48px;
+    position: fixed;
+    right: 30px;
+    margin-left: 10px;
+
+
+}
+ .profile-title{
+     display: flex;
+     align-items: center;
+ }
+.mainright .profile-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30px;
+    
+}
+.mainright .profile-left .image{
+    margin: 15px;}
+    .mainright .profile-left .name{
+        margin-left: 15px;
+    }
+ .name  p:nth-child(2){
+
+    color: grey;
+
+
+    }
+
+
+.switch p{
+    margin-left: 77px;
+    color: #0095F6;
+    font-size: 13px;
+}
+
+.suggestion
+{
+    display: flex;
+    margin-left: 17px;
+}
+.suggestion p:nth-child(1){
+    color: rgb(165, 151, 151);
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 15px;
+   
+
+
+}
+.suggestion p:nth-child(2){
+    margin-left: 130px;
+    font-size: 13px;
+    margin-top: 6px
+
+}
+
+.namelist1{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.name{
+    
+    margin-left: 20px;
+}
+.name p:nth-child(1){
+    font-family:  'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.namelist1 .switch p{
+    margin-left: 118px;
+    color: #0095F6;
+    font-size: 13px;}
+
+
+   
+            .about{
+                margin-left: 30px;
+                margin-top: 30px;
+                color: #cec7c7;
+            }
+            .end{
+                margin-left: 30px;
+                margin-top: 10px;
+                color: #cec7c7;
+            }
